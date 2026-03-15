@@ -8,6 +8,9 @@ train_audio/
 train_soundscapes/
 *.ogg
 *.wav
+*.csv
+
+/birdclef-2026
 
 # ML outputs
 models/
