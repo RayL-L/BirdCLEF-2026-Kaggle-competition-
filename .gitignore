@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data
+train_audio/
+train_soundscapes/
+*.ogg
+*.wav
+
+# ML outputs
+models/
+outputs/
+submissions/
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
