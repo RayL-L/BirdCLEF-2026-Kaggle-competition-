@@ -4,7 +4,8 @@ import json
 
 
 
-ROOT = Path("~/Documents/ML/birdclef-2026").expanduser()
+
+ROOT = Path("~/Documents/BirdCLEF-2026/birdclef-2026 data").expanduser()
 TRAIN_AUDIO = ROOT / "train_audio"
 TRAIN_SOUNDSCAPE = ROOT / "train_soundscapes"
 SOUNDSCAPE_LABELS_CSV = ROOT / "train_soundscapes_labels.csv"
@@ -66,3 +67,6 @@ with open(ROOT / "species_idx.json", "w") as f:
     json.dump(species_to_idx, f)
 
 train_audio_metadata.to_csv(ROOT / "metadata" / "train_audio_metadata.csv", index=False)
+
+
+
