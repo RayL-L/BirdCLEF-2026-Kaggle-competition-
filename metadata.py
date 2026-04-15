@@ -3,8 +3,6 @@ import pandas as pd
 import json
 
 
-
-
 ROOT = Path("~/Documents/BirdCLEF-2026/birdclef-2026 data").expanduser()
 TRAIN_AUDIO = ROOT / "train_audio"
 TRAIN_SOUNDSCAPE = ROOT / "train_soundscapes"
@@ -67,6 +65,11 @@ with open(ROOT / "species_idx.json", "w") as f:
     json.dump(species_to_idx, f)
 
 train_audio_metadata.to_csv(ROOT / "metadata" / "train_audio_metadata.csv", index=False)
+
+
+
+
+
 
 
 
